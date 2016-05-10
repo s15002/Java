@@ -16,6 +16,7 @@ public class Exam {
 	*/
 	
 	void countUp(int count) {
+		count = 0;
 		while (count < 100){
 			count++;
 			System.out.println(count);
@@ -28,8 +29,7 @@ public class Exam {
 	*/
 
 	void countDown(int count) {
-		for(int count; count = 100; count > 0){
-			count--;
+		for(count = 100; count > 0; count--){
 			System.out.println(count);
 		}
 	}
